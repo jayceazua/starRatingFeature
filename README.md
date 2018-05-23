@@ -11,7 +11,5 @@ Here some neat features to notice:
 
 Here is a sample:
 
-Here's our logo (hover to see the title text):
-
 Inline-style:
-![alt text](https://github.com/jayceazua/starRatingFeature/blob/master/img/starRatingScreenShot.png "Screen Shot)
+![alt text](https://github.com/jayceazua/starRatingFeature/blob/master/img/starRatingScreenShot.png "Screen Shot")
