@@ -9,6 +9,9 @@ Here some neat features to notice:
 * The animations are done with CSS.
 * I used minimal amount of JavaScript to highlight the stars up to the star that is ‘hovered’.
 
-Here is a sample:
+## Here is a live sample on JSFiddle
+https://jsfiddle.net/jayceazua/7uq0cc5c/2/
+
+Here is a sample screen shot:
 
 ![alt text](https://github.com/jayceazua/starRatingFeature/blob/master/img/starRatingScreenShot.png "Screen Shot")
