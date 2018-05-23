@@ -11,5 +11,4 @@ Here some neat features to notice:
 
 Here is a sample:
 
-Inline-style:
 ![alt text](https://github.com/jayceazua/starRatingFeature/blob/master/img/starRatingScreenShot.png "Screen Shot")
