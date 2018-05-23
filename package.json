@@ -1,0 +1,15 @@
+{
+  "name": "starratingfeature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayce Azua || jayce.azua@students.makeschool.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "npm": "^6.0.1"
+  }
+}
