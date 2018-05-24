@@ -14,6 +14,7 @@ StarRating.prototype.init = function() {
   for (var i = 0; i < this.stars.length; i++) {
     this.stars[i].setAttribute('data-count', i);
     this.stars[i].addEventListener('mouseenter', this.enterStarListener.bind(this));
+    this.stars[i].addEventListener('click', this.redirectClickOnStars.bind(this));
   }
   document.querySelector('#rating').addEventListener('mouseleave', this.leaveStarListener.bind(this));
 };
@@ -36,7 +37,7 @@ StarRating.prototype.leaveStarListener = function() {
 /**
  * Fill the star ratings up to a specific position.
  * @param el
- */
+**/
 StarRating.prototype.fillStarsUpToElement = function(el) {
   // Remove all hover states:
   for (var i = 0; i < this.stars.length; i++) {
@@ -46,6 +47,21 @@ StarRating.prototype.fillStarsUpToElement = function(el) {
       this.stars[i].classList.add('hover');
     }
   }
+};
+
+/**
+  * This addEventListener makes it able to click
+**/
+
+StarRating.prototype.redirectClickOnStars = function(e) {
+  let starValue = Number(e.target.id);
+
+  if (starValue <= 2) {
+    console.log('send an email.');
+  } else {
+    console.log('redirect to leave a review');
+  }
+  
 };
 
 // Run:
