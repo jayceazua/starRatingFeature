@@ -32,3 +32,8 @@ html {
   transform: rotateX(0deg);
   text-shadow: 0 0 30px #ffc;
 }
+
+a {
+   color: inherit;
+   text-decoration: none;
+ }
